@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dsipts
+Version: 1.1.1
+Summary: Python library for time series forecasting
+Author: Andrea Gobbi
+Author-email: agobbi@fbk.eu
+License-File: LICENSE
+Requires-Dist: numpy<2.0.0
+Requires-Dist: aim
+Requires-Dist: scipy
+Requires-Dist: pytorch-lightning==1.9.4
+Requires-Dist: pandas
+Requires-Dist: omegaconf
+Requires-Dist: hydra-core
+Requires-Dist: hydra-joblib-launcher
+Requires-Dist: hydra-optuna-sweeper
+Requires-Dist: beautifulsoup4==4.12.0
+Requires-Dist: html5lib
+Requires-Dist: html-table-parser-python3==0.3.1
+Requires-Dist: sphinx
+Requires-Dist: plotly
+Requires-Dist: scikit-learn
+Requires-Dist: numba
+Requires-Dist: einops
+Requires-Dist: matplotlib
+Requires-Dist: sphinx_pdj_theme
+Requires-Dist: sphinx_mdinclude
