@@ -16,11 +16,15 @@ RUN pip install --no-cache-dir \
     aim \
     pytorch-lightning==1.9.4 \
     einops \
-    hydra-joblib-launcher
+    hydra-joblib-launcher \
+    cffi
 
 # Set the working directory to the cloned repository
 WORKDIR /DSIPTS
 
+RUN aim init
+
+RUN aim up --host 0.0.0.0 --port 43800
 
 #CMD [ "/bin/bash" ]  
 CMD tail -f /dev/null
